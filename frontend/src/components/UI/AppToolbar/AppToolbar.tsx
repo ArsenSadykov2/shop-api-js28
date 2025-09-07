@@ -1,5 +1,5 @@
 import { AppBar, styled, Toolbar, Typography } from '@mui/material';
-import { Link as NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
