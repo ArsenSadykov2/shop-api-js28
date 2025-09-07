@@ -1,4 +1,4 @@
-import { AppBar, styled, Toolbar, Typography } from '@mui/material';
+import {AppBar, Container, styled, Toolbar, Typography} from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 
@@ -17,9 +17,11 @@ const AppToolbar = () => {
     return (
         <AppBar position="sticky" sx={{mb: 2}}>
             <Toolbar>
-                <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                    <Link to="/">CompStore</Link>
-                </Typography>
+                <Container maxWidth="xl">
+                    <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
+                        <Link to="/">CompStore</Link>
+                    </Typography>
+                </Container>
             </Toolbar>
         </AppBar>
     );
