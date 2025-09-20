@@ -38,10 +38,12 @@ const Products = () => {
                         <Grid container direction="row" spacing={1}>
                             {products.map(product => (
                                 <ProductItem
-                                    key={product.id}
+                                    key={product._id}
                                     title={product.title}
                                     price={product.price}
-                                    id={product.id}
+                                    id={product._id}
+                                    image={product.image || undefined}
+                                    categoryTitle={product.category.title}
                                 />
                             ))}
                         </Grid>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a10aab3a-a369-402a-b728-cf09bf7f855e" name="Changes" comment="Created Form and make adding new items.">
+      <change afterPath="$PROJECT_DIR$/frontend/globalConstants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/NotFoundPic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UI/FileInput/FileInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/products/FullProduct.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/multer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/axiosApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/axiosApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/products/NewProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/products/NewProduct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/products/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/products/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/products/components/ProductForm/ProductForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/products/components/ProductForm/ProductForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/products/components/ProductItem/ProductItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/products/components/ProductItem/ProductItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/products/productsSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/products/productsSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/products/productsThunks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/products/productsThunks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/fileDb.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/fileDb.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/routers/products.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/routers/products.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/types.d.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="32JmyNTdsxDwx0VQUGhz3AJh8i9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/user/Рабочий стол/HomeWork-js-28/HomeWork82",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "ts.external.directory.path": "/home/user/Рабочий стол/ClassWork-js-28/shop-app/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/assets/images" />
+      <recent name="$PROJECT_DIR$/frontend/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/features/products/components" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a10aab3a-a369-402a-b728-cf09bf7f855e" name="Changes" comment="" />
+      <created>1757147303202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757147303202</updated>
+      <workItem from="1757147304720" duration="6568000" />
+      <workItem from="1757256944512" duration="10149000" />
+      <workItem from="1757272943738" duration="356000" />
+      <workItem from="1757273316516" duration="186000" />
+      <workItem from="1757273634558" duration="9000" />
+      <workItem from="1757322728739" duration="393000" />
+      <workItem from="1757323277067" duration="491000" />
+      <workItem from="1757846179113" duration="589000" />
+      <workItem from="1757846779179" duration="297000" />
+      <workItem from="1758115955698" duration="5630000" />
+      <workItem from="1758128626041" duration="1530000" />
+      <workItem from="1758130193504" duration="3345000" />
+      <workItem from="1758133673086" duration="4126000" />
+      <workItem from="1758137902123" duration="1978000" />
+      <workItem from="1758187130397" duration="224000" />
+      <workItem from="1758188232511" duration="193000" />
+      <workItem from="1758193128702" duration="189000" />
+      <workItem from="1758215544195" duration="4895000" />
+      <workItem from="1758277190914" duration="19000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit init">
+      <option name="closed" value="true" />
+      <created>1757147458716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757147458716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created Api. Added Frontend.">
+      <option name="closed" value="true" />
+      <created>1757264886014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757264886014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deleted .idea">
+      <option name="closed" value="true" />
+      <created>1757264965076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757264965076</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added AppToolbar">
+      <option name="closed" value="true" />
+      <created>1757265575092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757265575092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Form and make adding new items.">
+      <option name="closed" value="true" />
+      <created>1757272664908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757272664908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit init" />
+    <MESSAGE value="Created Api. Added Frontend." />
+    <MESSAGE value="Deleted .idea" />
+    <MESSAGE value="Added AppToolbar" />
+    <MESSAGE value="Created Form and make adding new items." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Form and make adding new items." />
+  </component>
+</project>

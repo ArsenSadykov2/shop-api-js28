@@ -1,27 +1,51 @@
 import express from "express";
-import fileDb from "../fileDb";
-import {Product, ProductWithoutId} from "../types";
+import {ProductMutation} from "../types";
+import {imagesUpload} from "../multer";
+import Product from "../models/Product";
+import mongoose from "mongoose";
 
 const productRouter = express.Router();
 
 productRouter.get('/',async (req, res) => {
-    const products = await fileDb.getAllProducts();
-    res.send(products);
+    try{
+        const products = await Product.find().populate('category', 'title description');
+        res.send(products);
+    } catch (e) {
+        res.sendStatus(500);
+    }
 });
 
 productRouter.get('/:id', async (req, res) => {
-    const product = await fileDb.getProductById(req.params.id);
-    res.send(product);
+    try{
+        const product = await Product.findById(req.params.id)
+
+        if(!product) {
+            return res.status(404).send({error: "Product not found"});
+        }
+        res.send(product);
+    } catch (e) {
+        res.sendStatus(500);
+    }
 });
 
-productRouter.post('/', async (req, res) => {
-    const newProduct: ProductWithoutId = {
+productRouter.post('/',imagesUpload.single('image'), async (req, res) => {
+    const newProduct: ProductMutation = {
+        category: req.body.category,
         title: req.body.title,
         description: req.body.description,
         price: req.body.price,
+        image: req.file ? 'images/' + req.file.filename : null,
     };
-    const savedProduct = await fileDb.addNewProduct(newProduct);
-    res.send(savedProduct);
+    try{
+        const product = new Product(newProduct);
+        await product.save();
+        res.send(product);
+    } catch (e) {
+        if(e instanceof mongoose.Error.ValidationError) {
+            return res.status(400).send({error: e.message});
+        }
+        res.sendStatus(500);
+    }
 });
 
 export default productRouter;
